@@ -77,7 +77,7 @@ setup(
     install_requires=[
         "msrest>=0.6.21,<1.0.0",
         # Take uamqp from nagver fork as release version is broken
-        "uamqp @ git+https://github.com/nagver/azure-uamqp-python.git#v0.1egg=uamqp-v0.1",
+        "uamqp @ git+https://github.com/nagver/azure-uamqp-python.git@v0.1#egg=uamqp-v0.1",
         "azure-core>=1.10.0,<2.0.0",
     ],
     python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4",
